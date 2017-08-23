@@ -1,0 +1,149 @@
+html {
+ 	background-color: #b3ff66;
+ }
+
+ body {
+ 	width: 75%;
+	margin: 0 auto; 
+
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: white;
+ }
+
+
+ h1 {
+ 	text-align: center;
+ 	font-family: 'Saira Semi Condensed', sans-serif;
+ 	font-size: 65px;
+ 	margin: 50px;
+ }
+
+ .burgerAvailable {
+ 	font-family: 'Saira Semi Condensed', sans-serif;
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	width: 100%;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	background-color: #b7ffc2;
+ 	border: none;
+ }
+
+ .burgerAvailable:hover {
+ 	background-color: #b7ffc2;
+ }
+
+ .burgerEaten {
+ 	font-family: 'Saira Semi Condensed', sans-serif;
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	margin: 10px;
+ 	padding: 10px;
+ 	background-color: #993300;
+ }
+
+ h2 {
+  	text-align: center;
+ 	font-family: 'Saira Semi Condensed', sans-serif;
+ 	font-size: 40px;
+ 	margin: 50px;
+ }
+
+ .formContainer {
+ 	background-color: orange;
+ }
+
+ .addBurgerButton {
+ 	font-family: 'Saira Semi Condensed', sans-serif;
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	width: 100%;
+ 	margin: 0;
+ 	padding: 10px;
+ 	background-color: #b3ff66;
+ 	border: none;
+ }
+
+.addBurgerButton:active {
+	background-color: #b3ff66;
+}
+
+.burgerFooter {
+	background-color: #b3ff66;
+	padding: 20px 0;
+}
+
+.customerEats {
+	float: right;
+
+ 	font-family: 'Saira Semi Condensed', sans-serif;
+ 	font-weight: normal;
+ 	text-align: center;
+ 	color: white;
+
+ 	border-radius: 25px;
+ 	width: 45%;
+ 	height: 50px;
+ 	margin-top: 12px;
+ 	margin-right: 15px;
+ 	padding: 5px;
+ 	border: none;
+}
+
+#customerName {
+	float: left;
+	width: 50%;
+	margin-left: 20px;
+	border-bottom: none;
+
+	color: black !important;
+	font-size: 20px;
+}
+
+#customerName:focus {
+	border-bottom: none;
+	box-shadow: none;
+}
+
+.eatBurgerButton {
+	float: right;
+
+ 	border-radius: 25px;
+ 	margin-top: 0px;
+ 	margin-right: 15px;
+ 	padding: 5px;
+	background-color: transparent;
+ 	border: none;
+}
+
+input::-webkit-input-placeholder {
+	color: grey !important;
+	opacity: 0.35;
+}
+ 
+input:-moz-placeholder {
+	color: grey !important;  
+	opacity: 0.35;
+}
+ 
+input::-moz-placeholder {
+	color: grey !important;  
+	opacity: 0.35;
+}
+ 
+input:-ms-input-placeholder {  
+	color: grey !important;  
+	opacity: 0.35;
+}
+
+.fa-cutlery {
+  color: black;
+}
